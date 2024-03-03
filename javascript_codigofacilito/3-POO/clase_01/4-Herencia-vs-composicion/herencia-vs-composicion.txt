@@ -1,0 +1,24 @@
+HERENCIA:
+
+class Bird {
+	fly() {}
+	swim() {}
+}
+
+class Penguin extends Bird {}
+
+class Duck extends Bid {}
+
+COMPOSICION:
+
+class FlyingCapable {}
+
+class SwimingCApable {}
+
+class Penguin {
+	SwimingCapable;
+}
+
+class Duck {
+	FlyingCApable;
+}

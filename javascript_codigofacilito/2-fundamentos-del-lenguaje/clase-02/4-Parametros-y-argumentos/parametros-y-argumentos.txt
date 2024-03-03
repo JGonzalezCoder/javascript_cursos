@@ -1,0 +1,61 @@
+Parametros:
+
+	Se usan para recibir informacion en una funcion usamos parametros, y es a traves de estos que una funcion debe recibir toda la informacion que necesite.
+
+function cuadrado(numero) { // el "numero" es un parametro.
+	return numero * numero;
+}
+
+cuadrado(2); // el "2" es un argumento.
+
+SINTAXIS:
+
+function f(<p1>,<p2>,<p3>) {
+	// Declaraciones a ejecutar...
+}
+
+CARACTERISTICAS DE LOS PARAMETROS:
+
+	>_ No tienen tipo, es decir, un parametro puede recibir un argumento de cualquier tipo
+	
+	>_ Al llamar la funcion no se revisa la cantidad de parametros enviados, puedes enviar mas o menos argumentos de los listados.
+
+EL OBJETO ARGUMENTS:
+
+	Los argumentos se asociaran para cada parametro listado en el orden especificado, y todos los que excedan los parametros listados se agruparan en el objeto arguments.
+
+	Es un objeto "tipo Array" por lo que podras acceder a sus elementos por su indi, obtener la longitud e iterar el arreglo.
+
+EJEMPLO:
+
+function suma() {
+	let sum = 0;
+	for(let i=0; i < arguments.length; i++) {
+		sum += aguments[i];
+	}
+	return sum;
+}
+
+let resultado = suma(1,2,3,4,5,6,7,8,9,10);
+
+VALORES POR DEFECTOS:
+
+	Por defecto un parametro que no recibe un argumento es undefined.
+	
+	Podemos asignar otro valor por defecto en la definicion de la funcion.
+
+function f(<p1>=a,<p2>=b) {
+	//Codigo...
+}
+
+	Los parametros con valor por defecto aparecen despues de los parametros sin valor por defecto.
+
+PASE POR VALOR Y POR REFERENCIA:
+
+	En javascript, un argumento puede ser enviado por valor o por referencia. Esta diferencia influye en que sucede con el argumento original despues de la ejecucion de la funcion.
+	
+	Decimos que un valor ha sido enviado como referencia, cuando el parametro apunta a la misma direccion que el argumento original, cualquier modificacion sobre este valor afecta al argumento original.
+	
+	Por su parte, decimos que pasamos por valor cuando el argumento enviado es copiado en una direccin distinta para el parametro, cualquier modificacion al parametro no afecta el valor original.
+	
+	Cualquier valor que no sea un objeto o un arreglo es pasado por valor, esto incluye numneros, cadenas, booleans, entre otros.

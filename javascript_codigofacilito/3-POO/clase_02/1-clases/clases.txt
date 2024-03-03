@@ -1,0 +1,28 @@
+CLASES:
+
+	Es un modelo para creacion de objetos. Sirve como una referencia escrita del objeto donde se definen las propiedades y el comportamiento del objeto.
+
+	Nos permiten encapsular los datos y el comportamiento de un elemento, asi como proveer la interfaz para comunicarnos con el objeto, sin exponer los detalles del mismo.
+	
+	>_ Es una forma de organizar nuestro codigo.
+	
+	>_ Nos permite definir atributos y acciones de un objeto.
+	
+	>_ Encapsula la funcionalidad del objeto.
+	
+	>_ Nos permite "ocultar" el funcionamiento interno del objeto del resto del programa.
+	
+	>_ A su vez provee de una interfaz para comunicarse con este funcionamiento interno.
+	
+	>_ Son la base de la POO.
+
+DEFINIR:
+
+	class Banco {}			// Declaracion de clase
+	let Banco = class {}	// Expresion de clase
+
+MODELADO DE CLASES:
+
+	Las clases nos permiten modelar el comportamiento del mundo real en estructuras faciles de comprender y que podemos llevar a nuesro codigo.
+
+	

@@ -1,0 +1,33 @@
+Condicional #1:
+
+if (expresion-booleana) {
+ // codigo a ejecutar
+}
+
+Condicional #2:
+
+if (expresion-booleana){
+	// codigo a ejecutar
+} else {
+	// codigo si la condicion es falsa.
+}
+
+Condicional #3:
+
+if (expresion-booleana){
+	// codigo a ejecutar
+} else if (expresion-booleana) {
+	// codigo a ejecutar si la expresion es falsa, y la segunda verdadera.
+} else {
+	// codigo si la condicion es falsa
+}
+
+Operador ternario:
+
+	Es el unico operador del lenguaje que trabaj con 3 elementos:
+	
+	>_ Una condicion a evaluar.
+	>_ Una expresion a ejecutar si la condicion es verdadera.
+	>_ Una expresion a ejecutar si la condicion es falsa.
+	
+	(expresion)? valor_01 : valor_02;

@@ -1,0 +1,31 @@
+METODOS:
+
+	Son funciones declaradas dentro del cuerpo de la clase.
+	
+	class Account {
+		deposit(amount) {
+			this.balance += amount;
+		}
+	}
+	
+METODOS ACCESORES:
+
+	SON USADOS PARA LEER O MODIFICAR LOS VALORES DE UNA PROPIEDAD DEL OBJETO.
+
+	Comumente nos referimos como getters a aquellos metodos que se usan para leer el valor de una propiedad.
+	
+	Setter a aquellos metodos que se usan para modificar el valor de una propiedad.
+	
+	Las palabras get y set nos permiten definir metodos para leer y modificar una propiedad.
+	
+	
+	class Person {
+		#name = "";
+		get name() {
+			return this.#name;
+		}
+		
+		set name(name) {
+			this.#name = name;
+		}
+	}

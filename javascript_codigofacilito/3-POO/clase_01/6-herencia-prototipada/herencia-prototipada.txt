@@ -1,0 +1,53 @@
+HERENCIA PROTOTIPADA:
+
+	Los lenguajes POO prototipada son muchos mas simple porque solo tiene un tipo de abstracion: los objectos.
+
+EJEMPLO:
+let house = {};
+let myHouse = Object.create(house);
+let myAparment = Object.create(myHouse);
+
+CADENA DE PROTOTIPO:
+
+	En javascript buscara por la propiedad en nuestro objecto, entonces en su prototipo, entonces en el prototipo del prototipo, y asi sucesivamente.
+
+EJEMPLO:
+
+let human = {
+	hair: true
+}
+
+let guillermo = {
+	__proto__: human,
+	hair: false
+}
+
+console.log(guillermo.hair);
+
+ANTES DE LA PALABRA RESERADA "class":
+
+function Cat(name) {
+	this.name = name;
+}
+
+Cat.prototype.meow = function() {
+	console.log(`${this.name} meow`)
+}
+
+let cat = new Cat("Tavo");
+cat.meow()	-> Tavo meow
+
+DESPUES DE LA PALABRA RESERVDA "class":
+
+class Tiger {
+	constructor(name) {
+		this.name = name;
+	}
+	
+	meow() {
+		console.log(`${this.name} meow`)
+	}
+}
+
+let tiger = new Tiger("Kira");
+tiger.meow();

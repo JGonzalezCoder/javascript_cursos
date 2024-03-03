@@ -1,0 +1,4 @@
+Accede al DOM
+
+1. document
+2. window.document

@@ -1,0 +1,18 @@
+Tipos de datos:
+
+	Son anotaciones que agregamos a la informacion de nuestro programa, para que el interprete o el compilador usen y manejen esta informacion.
+
+Los lenguajes de programacion comunmente pueden categorizarse en dos:
+
+	>_ debilmente tipado.
+	>_ fuertemente tipado.
+
+Fuertemente tipado:
+
+	Son muy estrictos con los tipos y generalmente requieren que el tipo de dato se defina al declarar la variable, asi como que la variable no se reasigne a un dato de distinto tipo.
+
+Debilmente tipado:
+
+	No son tan estrico, por lo que una variable puede cambiar y apuntar a valores de distintos tipos.
+
+NOTAS: Algunos lenguaje incluyen tipado dinamico, en cuyos casos no es necesario especificar en el codigo de que tipo sera una variable, el interprete puede asignar y definir el tipo de dato de la variable en timepo de ejecucion.

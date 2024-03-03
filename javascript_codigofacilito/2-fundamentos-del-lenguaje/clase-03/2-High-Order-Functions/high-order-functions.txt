@@ -1,0 +1,9 @@
+High order functions
+
+	A las funciones que reciben una funcion como argumento o retornan una funcion como resultado.
+
+	En un lenguaje como Javascript donde las funciones se consideran objetos de primera clase, las funciones pueden ser enviadas como argumento, almacenadas en variables y pueden ser el resultado (return) de una funcion.
+
+	El patron de funciones de alto orden nos permite escribir funciones dinamicas que puedan modificar su comportamiento segun la funcion que reciban.
+
+

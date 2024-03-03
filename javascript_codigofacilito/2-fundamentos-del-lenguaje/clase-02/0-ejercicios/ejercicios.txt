@@ -1,0 +1,52 @@
+Ejercicio #1:
+
+Escribe un ejercicio que vaya de 3 en 3 y solo imprima los numeros pares. Debe recorrer del 0 al 100.
+
+Ejercicio #2:
+
+Adivina el numero magico, considerando esta linea de codigo con la que puedes obtener un numero aleatorio en Javascript:
+
+let numeroMagico = parseInt(Math.random()*100);
+
+Implementa un programa que solicite al usuario ingresar un numero hasta adivinar el numero magico. El programa debera ademas:
+>_ Imprimir "el numero es mayor" si el usuario ingreso un numero menor.
+>_ Imprimir "el numero es menor" si el usuario ingreso un numero mayor.
+>_ Imprimir "Felicidades, adivinaste el numero" si el usuario ingreso el mismo numero.
+>_ Imprimir "Tu opcion esta fuera del rango 0-100" si el usuario ingreso un numero mayor a 100.
+>_ Imprimir "Error. Solo puedes ingresar numeros" si el usuario ingreso algo que no sea un numero.
+
+Ejercicio #3:
+
+Implemente el programa del numero magico usando un ciclo infinito:
+
+let numeroMagico = parseInt(Math.random()*100);
+
+for(;;) {
+	// Aqui tu codigo...
+}
+
+Ejercicio #4:
+
+En tu primer trabajo tech comienzas ganando 10$ por hora, lo que te permitira contratar tu membresia de cursos de codigo facilito que cuesta 13$ ahora necesitas saber cuantos meses de codigo facilito puedes contratar con lo ganado en tu primera semana de trabajo. Para eso:
+
+Crea una funcion que reciba la cantidad de horas que has trabajado, y retorne el dinero que has ganado.
+Crea una funcion que reciba la cantidad de dinero que has ganado, y te diga cuantos meses de codigo facilito puedes adquierir con este dinero.
+
+Recuerda, no puedes comprar medio mes, ni gastar mas de lo que has ingresado.
+
+Intenta utilizar la sintaxis de flecha y el retorno implicito.
+
+Ejercicio #5:
+
+Escribe una funcion que reciba dos argumentos:
+
+Un mensaje (string)
+Un codigo (string) (opcional) (por defecto "x")
+
+El programa debera imprimir las letras del mensaje, y reemplazar la letra a, por el codigo recibido en el segundo argumento.
+
+Recuerda que puedes recorrer los elementos de un string usando for of...
+
+Ejercicio #6:
+
+Escribe una funcion que reciba 2 valores y pueda ejecutar cualquier operacion matematica que retorne un numero como resultado, usando los 2 valores anteriores.

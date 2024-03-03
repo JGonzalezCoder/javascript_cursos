@@ -1,0 +1,51 @@
+PROPIEDADES:
+
+	Hay dos formas de definir las propiedades de un objeto en una clase:
+	
+	>_ Usando el metodo constructor.
+	
+	constructor(number, holder) {
+		this.number = number;
+		this.holder = holder;
+	}
+	
+	>_ Directamente en el cuerpo de la clase
+	
+	class Person {
+		name;
+		age;
+	}
+	
+	En POO hay 3 niveles de acceso para las propiedades de un objeto definido dentro de una clase:
+	
+		>_ Publico: Son aquellas que pueden ser accedidas desde cualquier lugar
+		
+		class Person {
+			name = "";
+			age = 0;
+		}
+		
+		Son declaradas en la clase y pueden ser modificadas dentro y fuera del cuerpo de la clase.
+		
+		>_ Privado: Son aquellas que solo pueden ser utilizada dentro de la clase
+		
+		class Person {
+			#name = "";
+			#age = 0;
+		}
+		
+		Solo pueden ser usadas y modificadas por metodos de la misma clase.
+		
+		>_ Protegido: Son aquellas que pueden ser accedidas dentro de la clase y sus ubclases.
+		Este nivel de acceso no esta implementado en Javascript.
+		
+		Comunmente simulamos el comportamiento colocando un _
+		
+		class Person {
+			_name = "";
+			_age = 0;
+		}
+		
+		Pero esto es una convencion de uso.
+
+

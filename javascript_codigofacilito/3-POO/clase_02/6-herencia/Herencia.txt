@@ -1,0 +1,10 @@
+HERENCIA:
+
+	Es un mecanismo que permite que una subclase o clase derivada, herede los metodos y propiedades de una super clase, o clase base.
+
+	Podemos crear una nueva clase que es una version modificada de la existente
+	
+	class Base{};
+	class SubClass extends Base{};
+	
+	Hay una mejora significativa cuando trabajamos con clases sobre el uso de prototipos en termino de legibilidad y claridad del codigo.

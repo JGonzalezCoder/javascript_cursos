@@ -1,0 +1,49 @@
+EVENT LOOP:
+
+	Es un patron, que permite en el tiempo de ejecucion que javascript funcione de manera asincrona y no bloqueante.
+	
+	Como su nombre lo indica, es un ciclo de eventos
+	
+CALL STACK - Pila de llamadas
+
+	Almacena las instrucciones que van a ejecutarse.
+	
+	Es muy similar a un array, se puede agregar items al final (push), y se remueve el ultimo (pop).
+	
+MEMORY HEAP
+
+	Region de memoria libre. Se dedica al alojamiento dinamico de objetos.
+	
+	Es conpartida por todo el programa y controlada por un recolector de basura que se encarga de liberar aquello que no se necesita.
+
+STACK - PILA
+
+	Javascript es un lenguaje single threaded.
+	
+	Existe un solo thread que ejecuta el codigo. Por lo tanto, cuenta con un call stack.
+	
+	Al haber un solo thread es importante no escribir codigo bloqueante.
+
+WEB API
+
+	Es una libreria o biblioteca, que nos provee el navegador para potenciar las habilidades de Javascript.
+
+CALLBACK QUEUE o MACROTASK QUEUE o TASK QUEUE - COLA DE MACRO TAREAS
+
+	Es un mediador, donde se envia el codigo asincrono y espera a ser ejecutado.
+	
+	Una vez el call stack esta vacio, las tareas del callback queue, pasan al all stack.
+
+MICROTASK QUEUE - COLA DE MICROTREAS
+
+	Es un mediador, como el callback queue, pero las tareas tienen una mayor prioridad.
+
+CALLBACK:
+
+	Es una funcion que se pasa a otra funcion, como parametro de entrada, que se ejecuta en un determinado tiempo.
+	
+	setTimeout(() => {
+		console.log("Hola");
+	}, 2000);
+
+

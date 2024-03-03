@@ -1,0 +1,37 @@
+VARIABLES:
+
+	son etiquetas para datos almacenados en la memoria RAM.
+	
+Para definir una variable en Javascript podemos usar 3 sintaxis alternativas:
+
+	numero = 0; // forma 1
+
+	var numero = 0; // forma 2
+
+	let numero = 0; // forma 3
+
+EJEMPLO: 
+
+	let/var numero = 0;
+	
+	let/var: palabra reservada
+	numero: identificador
+	=: operador asignacion
+	0: valor para asignar
+
+La diferencia entre let y var recae en un concepto muy importante de
+Javascript, el sope o el alcance, del que hablaremos mas adelante cuando
+revisemos el tema de funciones.
+
+Una variable puede declararse sin un valor inicial cuando usamos let o var,
+en cuy caso el valor al que apunta es undefined.
+
+	let numero;
+	var numero;
+
+Cuando una variable no utiliza ni var, ni let, esta se convierte en una
+variable global.
+
+NOTA: no se recomienda que declares variables sin let o var.
+
+	numero = 10;

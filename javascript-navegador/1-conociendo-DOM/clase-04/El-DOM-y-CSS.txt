@@ -1,0 +1,4 @@
+Accede a CSS a traves del DOM
+
+1. document.styleSheets
+2. windows.document.styleSheets

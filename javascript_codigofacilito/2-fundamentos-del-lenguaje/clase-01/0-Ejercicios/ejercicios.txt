@@ -1,0 +1,41 @@
+Ejercicio #1:
+
+Vamos a realizar un programa de lectura de datos e impresion, solicitaremos que el usuario ingrese su nombre, y luego imprimiremos su nombre.
+
+Ejercicio #2:
+
+Calcula la edad de una persona, solicita el a;o de nacimiento e imprime la edad.
+
+Ejercicio #3:
+
+Solicita del usuario:
+	>_ Su nombre
+	>_ 3 calificaciones
+
+Calcula el promedio de las 3 calificaciones. Imprimie un mensaje final:
+"Hola <nombre> tu promedio calculado es <promedio>"
+
+Ejercicio #4:
+
+Determina si las siguientes expresiones son falsas o verdaderas.
+
+ >_ true
+ >_ false
+ >_ !true
+ >_ 0
+ >_ ""
+ >_ !!""
+ >_ null || "null"
+ >_ [0]
+
+Ejercicio #5:
+
+	Contesta las siguientes preguntas:
+	Por que undefined == null es true?
+	Por que undefined === null es false?
+
+Ejercicio #6:
+
+	Has consumido X cantidad de megas en wikipedia, y Y cantidad de megas en memes. El costo de visitar wikipedia es 0.10$ y el de los memes es de 0.05$
+
+	Si el total consumido es mayor a 100$ imprime: "consumo demasiado alto", si el consumo de ver memes es mayor al de leer wikipedia, imprime "wow, muchos memes"

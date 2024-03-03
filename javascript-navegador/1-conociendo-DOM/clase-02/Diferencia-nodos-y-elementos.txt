@@ -1,0 +1,10 @@
+Que son los los nodos
+
+	Son las etiquetas HTml, los atributos de las etiquetas HTML, los comentarios del Docuemntos, etc...
+	No todos los Nodos son elementos.
+
+Que son los elementos
+
+	Son todas las etiquetas HTML del documentos.
+	Todos los elementos son Nodos.
+

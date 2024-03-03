@@ -1,0 +1,46 @@
+HIGH ORDER FUNCTIONS DE ARREGLOS:
+
+	Las funciones como:
+	>_ map
+	>_ filter
+	>_ reduce
+	>_ forEach
+	de los arreglos son ejemplos de High order functions luego de que, principalmente trabajan con una funcion que reciben como argumento.
+
+>_ forEach:
+
+	Recibe una funcion como argumento, esta funcion se ejecuta una vez por cada elemento que hay dentro del arreglo;
+	
+let arreglo = ["ruby","python","java"];
+arreglo.forEach((elemento, indice, arreglo) => {
+	console.log(elemento);
+});
+
+>_ map:
+
+	Recibe como un argumento una funcion, y retorna un nuevo arreglo. La premisa es que la funcion recibida servira como una funcion de transformacion para cada elemento en el arreglo.
+
+let numeros = [2, 4, 6, 9, 5];
+let cuadrados = numeros.map((elemento, indice, arreglo) => {
+	return element * element;
+});
+
+>_ filter:
+
+	Recibe como argumento una funcion, esta funcion se aplica para cada elemento del arreglo, el resultado de la funcion se evalua como verdadero o falso, si es verdadero eelemento se conserva, si es falso, se descarta
+
+let numeros = [2, 4, 6, 9, 5];
+let pares = numeros.filter((num) => {
+	return (num % 2) === 0;
+});
+
+>_ reduce:
+
+	Nos permite aplicar una operacion de reduccion para un arreglo, y asi reducirlo a un solo valor.
+
+let numeros = [2, 4, 6, 9, 5];
+let suma = numeros.reduce((acumulado, numero) => {
+	return acumulado + numero;
+}, 0);
+
+NOTA: En javascript moderno es muy comun que reemplacemos el uso de ciclos para trabjar con arreglos, por el uso de funciones como forEach, map, reduce, entre otras, esto luego de que dichas funciones promueven la legibilidad y expresividad del codigo.

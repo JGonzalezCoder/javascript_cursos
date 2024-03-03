@@ -1,0 +1,37 @@
+CONSTANTES: Son muy similares a las variables, apuntan o etiquetan un dato almacenado en la memoria RAM, pero no pueden reasignarse.
+
+Para definir una constante utilizamos la palabra reservada const:
+
+	const PI = 3.1416;
+
+La sintaxis es similar a la definici[on de variables, lo unico que cambia
+entre su contraparte de variables es que si intentas reasignar una constante,
+recibiras un error.
+
+	const PI = 3.1416;
+
+Las constantes pueden representar un beneficio de rendimiento en la ejecucion
+de tu codigo, aunque no uno critico.
+
+Cuando usar varibles y cuando usar constantes?
+
+	1. Todo es una constante hasta que se pruebe lo contrario:
+	En esta idea, el programador usara constante, y solo cambiararemos
+	una constante a variable si eventualmente en el codigo
+	identificamos que este dato puede cambiar.
+	
+	>_ Ventajas: Las constantes traen consigo una ventaja en rendimiento.
+	Puede ser mas facil razonar el codigo.
+	
+	>_ Desventajas: Si todas las etiquetas son constantes, la ventaja
+	cognitiva de usarlas se pierde, ya no se puede asumir que una constante
+	no se puede modificarse;
+	
+	2. Usa constante solo para etiquetas que aseguras nunca se reasignara:
+	En esta idea, el programador usara comunmente let, y solo usara const
+	cuando se trate de un valor que no espera se modifique.
+	
+	>_ Ventajas: Las constantes sirven como referencia semantica del codigo,
+	entendemos que este dato es contante, como su nombre lo indica.
+	
+	>_ Desventajas: El codigo puede ser mas dificil de razonar.

@@ -1,0 +1,38 @@
+Arreglos:
+
+	Son colecciones de datos ordenados a los que podemos identificar por su indice, comunmente su posicion en el arreglo.
+
+SINTAXIS:
+
+	let arreglo = [];
+	let arreglo = new Array();
+	let arreglo = Array(size);
+
+TAMANO DINAMICO
+
+	A diferencia de lenguajes de bajo nivel, no necesitamos reservar memoria o definir de que tamano sera el arreglo, el motor de ejecucion determinara como guardara un arreglo.
+
+EMPIEZAN EN INDICE 0
+
+	El primer elemento de un arreglo esta en la posicion 0, por lo que el conteo de indices siempre inicia en este valor.
+
+LOS ELEMENTOS PUUEDEN SER DE CUALQUIER TIPO
+
+	A diferencia de lenguajes de bajo nivel donde un arreglo solo puede contener datos del mismo tipo, en javascript un mismo arreglo puede contener dtos de distintos tipos.
+
+OBTENER VALORES DE UN ARREGLO
+
+	Los valores de u narreglo se obtienen por su indice ( la posicion que ocupan en el arreglo).
+
+	let calificaciones = [10,9,8];
+	calificaciones[1];
+
+LONGITUD
+
+	la propieddad "length" de los arreglos nos permite saber el tamano del arreglo.
+
+RECORRER CON UN CICLO
+
+	Podemos usar los ciclos que hasta el momento hemos aprendido para recorrer los valores de un arreglo.
+	
+

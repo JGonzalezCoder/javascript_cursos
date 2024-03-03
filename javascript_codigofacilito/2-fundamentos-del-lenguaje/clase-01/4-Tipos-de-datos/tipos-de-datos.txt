@@ -1,0 +1,25 @@
+En Javascript existe 6 tipos primitivos:
+
+	>_ string: para texto.
+	>_ number:para numeros.
+	>_ boolean: para valores verdaderos o falso.
+	>_ undefined: para expresar la ausencia de valor.
+	>_ symbol
+	>_ null
+
+typeof: identificar el tipo de dato.
+
+conversion de tipo:
+
+	>_ parseInt: convertir a numero entero.
+	>_ parseFloat: convertir a numero real.
+
+Type coercion:
+
+	Cunado en nuestro codigo interactuan dos tipos de datos distintos en una misma operacion, Javascript hara una conversion implicita de datos.
+
+Caracteristicas de los tipos de datos primitivos:
+
+	>_ No son objetos.
+	>_ No pueden tener propiedades.
+	>_ Son inmuables.

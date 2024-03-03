@@ -1,0 +1,65 @@
+Ciclos:
+
+	Son declaraciones que nos permiten repetir un grupo de instrucciones hasta que una condicion se cumpla, algunos otros ciclos nos permiten, en cambio, recorrer una estructura definida.
+
+El cilo for:
+
+for(expresion-inicial; condicion; expresion-incremental) {
+	//codigo a repetir
+}
+
+NOTA: un dato curioso es que todos estos elementos son opcionales, por lo que podrias escribir un ciclo infinito en Javascript, asi:
+
+for(;;) {
+	// codigo...
+}
+
+El ciclo for in:
+
+	Nos permite iterar sobre las propiedades enumerables de un objeto.
+	
+let user = {name: `Jesus`, age: 24};
+for(let property in user) {
+	console.log(property);
+}
+
+NOTA: Un dato para tener en cuenta es que, en realidad, este objeto tiene mas propiedades que "name", algunas de ellas las ha heredado de otros objetos implicitamente, sin embargo, el ciclo solo itera sobre las propiedades enumerables.
+	
+El ciclo for of:
+
+	Nos permite iterar sobre valores de un objeto iterable.
+	
+	El lenguaje incluye algunos iterables como: Array, map, set, string.
+	
+	Para que un objeto sea iterable debe implementar el protocolo de iteacion.
+
+let calificaciones = [10, 20, 30];
+for(calificacion of calificaciones) {
+	console.log(calificacion);
+}
+
+NOTA: lo que hace interesante a este ciclo es que puede iterar sobre cualquier iterable, incluso tus propios objetos, quienes deberan implementar el protocolo de iteracion para convertirse en iterables.
+
+El ciclo while:
+
+while (cndicion) {
+	//codigo a repetir
+}
+
+NOTA: Una de las caracteristicas esenciales de este ciclo es que la condicion se ejecutara antes de ejecutar las declaraciones en cada iteracion.
+
+El ciclo do while:
+
+do {
+	//codigo a repetir
+} while (condicion)
+
+NOTA: la principal diferencia con el ciclo while es que las declaraciones se ejecutan antes de evaluar la condicion, por lo que en todo caso aseguramos que se evaluen al menos una vez.
+
+break:
+
+	te permite detener un ciclo dentro de su ejecucion.
+
+continue:
+
+	terminara la iteracion actul, pero no detendra el ciclo.

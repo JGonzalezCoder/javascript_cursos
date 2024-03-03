@@ -1,0 +1,22 @@
+Cadenas:
+
+	Son secuencias ordenadas de 0 o mas valores unsigned int de 16bit, usados principalmente para representar texto.
+
+	Historicamente, en ciencias de la computacion nos hemos referido a las representaciones de tetocomo cadenas o string, porque estas son una coleccion de elementos o caracteres, en un orden especifico.
+
+	En javascript, a diferencia de otros lenguajes, no existe un tipo de dato pra los caracteres que conforman una cadena. un caractere es una cadena de 1 elemento.
+
+Concatenacion:
+
+	Es el termino que usamos para la operacion de unir dos cadenas una tras la otra, en el proceso de concatenacion el inicio de una cadena se anade al final de otra.
+	
+	str_01 + str_02
+	str_01.concat(str_02);
+
+interpolacion:
+
+	Es el proceso de evaluar un string que contiene uno o varios marcadores que seran sustituidos por otro valor.
+
+	`Eres ${age >= 18 ? "mayor" : "menor"} de edad`;
+	
+

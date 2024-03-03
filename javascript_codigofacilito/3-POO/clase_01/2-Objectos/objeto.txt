@@ -1,0 +1,27 @@
+OBJECTOS:
+
+	typeof {} -> Object
+
+	typeof new Map()			-> object
+	typeof new Set()			-> object
+	typeof new Date()			-> object
+	typeof new Error()			-> object
+	typeof new RegExp("hello")	-> object
+	typeof /hello/				-> object
+	typeof new Array()			-> object
+	typeof []					-> object
+	
+	typeof new Boolean()	-> object
+	typeof new Number()		-> object
+	typeof new String()		-> object
+	typeof Boolean()	-> boolean
+	typeof Number()		-> number
+	typeof String()		-> string
+	typeof Boolean		-> function
+	typeof Number		-> function
+	typeof String		-> function
+	
+	typeof {}			-> object
+	typeof new Boject()	-> object
+	typeof Object()		-> object
+	typeof Object		-> function

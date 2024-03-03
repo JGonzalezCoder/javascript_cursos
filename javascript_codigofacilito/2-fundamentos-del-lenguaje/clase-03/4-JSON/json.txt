@@ -1,0 +1,93 @@
+JSON:
+
+	Una de las maneras mas sencillas de declarar un objeto es usar algo que se conoce como el JavascriptObject Notation o JSON como normalemente nos referimos a esta notacion.
+
+EJEMPLO:
+
+let usuario = {
+	nombre: "jesus",
+	edad: 24,
+	saludar: () => {
+		console.log("Hola soy jesus");
+	}
+}
+
+	Segun json.org los objetos JSON de Javascript es como llamamos a los diccionarios o hashes en otros lenguajes de programacion, por o que puedes concluir que un objeto JSON es lo que un diccionario en Python, o lo que un HashMap en JAVA.
+
+LEER VALORES EN UN OBJETO:
+
+	Hay dos formas de leer y asignar propiedades a un objeto:
+		>_ La sintaxis de corchetes.
+		>_ La sintaxis del punto.
+	
+let usuario = {}
+usuario[nombre] = "jesus"; // sintaxis de corchetes.
+usuario.edad = 24; // sintaxis del punto.
+
+RECORRER UN OBJETO:
+
+	Un objeto JSON es una coleccion de propiedades y valores.
+	
+	El ciclo for in nos permite iterar sobre las propiedades enumerables de un objeto.
+	
+let user = {
+	name: "jesus",
+	age: 24
+}
+for(const property in user) {
+	console.log(property); // obtener las claves
+	console.log(user[property]); // obtener los valores
+}
+
+	Para aprender a diferenciar entre "ciclo in", y el ciclo "for of", recuerda lo siguiente:
+	>_ for of: es para iterables.
+	>_ for in: es para objetos.
+	
+OBJECT INITIALIZERS:
+
+	Aunque lucen similares, la sintaxis para inicializar un objeto no es igual a JSON.
+	
+	comunmente nos referimos a este como un objeto JSON:
+
+let user = {
+	name: "Jesus",
+	age: 24
+}
+
+	JSON es un estandar para transmision de datos usando pares de clave y valor, casi todos los lenguajes tienen soporte para este estandar, por lo que comunmente se utiliza para intercambiar datos entre aplicaciones.
+	
+	La expresion de inicializacion de objeto nos permite crear objetos en Javascript, que son una coleccion de pares de clave y valor, en este sentido igual que JSON.
+
+	La MDN destaca estas principales diferencias entre uno y otro:
+	
+	>_ JSON solo permite la definicion de propiedades con la sintaxis:
+	"propiedad" : valor
+	donde podemos distinguir que el identificar de la propiedd esta rodeado de comillas dobles, mismas que no son necesarias en javascript.
+	
+	>_ JSON no soporta la sintaxis shortand.
+	
+	>_ JSON no permite propiedades computadas.
+	
+	>_ En JSON no podemos tener funciones como valor, solo cadenas, numeros, booleanos, null, arreglos y otros objetos JSON.
+
+	>_ En JSON "__proto__" es un nombre de propiedad valido, mientras que en javascript tiene una funcion especial.
+	
+SHORTHAND SYNTAX:
+
+	nos permite asignar propiedades nuevas a un objeto pasando solo una variable, en lugar de un par clave-valor.
+
+let nombre = "Jesus";
+let user = {
+	age: 24,
+	nombre
+};
+
+COMPUTED PROPERTIES
+
+	Javascript permite usar el resultado de una expresion como nombre de una propiedad si la colocas dentro de un par de corchetes en la definicion de un objeto.
+	
+let key = "apellido";
+let usuario = {
+	nombre: "jesus",
+	[key]: "Gonzalez"
+};

@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+h1 {
+	font-size : 4rem;
+}
+
+.container {
+	display : grid;
+	grid-template-columns : repeat(4, 1fr);
+	gap : 4rem;
+	padding : 4rem;
+	align-items : center;
+}
+
+.blur {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+	filter : blur(2rem);
+	opacity : 0.6;
+	z-index : -1;
+	/*background-image: url(./react.jpeg);*/
+}
+
+.informacion {
+	grid-column : 2 / 5;
+}
+
+.poster {
+	width : 30rem;
+}
+
+.poster img {
+	width : 100%;
+}

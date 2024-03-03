@@ -1,0 +1,17 @@
+CONSTRUCTOR:
+
+	Cuando instanciamos un objeto de una clase usando la palabra "new" el metodo constructor se ejecuta automaticamente.
+
+EJEMPLO:
+
+class Account {
+	constructor(number, holder, balance) {
+		this.number = number;
+		this.holder = holder;
+		this.balance = balance;
+	}
+}
+
+	Podemos usar el constructor de la clase para definir las propieddes que tendra el objeto, usando la palabra this.
+
+	El metodo constructor es como cualquier otro metodo, por lo que puedes hacer uso de todo lo que hemos aprendido de funciones en el lenguaje.

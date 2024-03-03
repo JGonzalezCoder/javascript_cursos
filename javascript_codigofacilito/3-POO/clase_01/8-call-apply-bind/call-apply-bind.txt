@@ -1,0 +1,31 @@
+CALL Y APPLY:
+
+let human = {
+	name: "Guillermo",
+	say: function() {
+		return this.name;
+	}
+};
+
+let yellLikes = function(color, food) {
+	console.log(`${this.say()} likes ${color} and ${food}`.toUpperCase());
+}
+
+yellLikes.call(human, "yellow", "chickpeas");
+yellLikes.apply(human, ["yellow", "chickpeas"]);
+	
+BIND:
+
+let human = {
+	name: "Guillermo",
+	say: function() {
+		return this.name;
+	}
+}
+
+let yell = function() {
+	console.log(this.say().toUpperCase());
+}
+
+let yelling = yell.bind(human);
+yelling();

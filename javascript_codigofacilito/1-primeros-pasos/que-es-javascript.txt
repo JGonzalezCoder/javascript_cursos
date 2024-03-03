@@ -1,0 +1,124 @@
+Historia:
+	1- En 1995 Brendan Eich creo Javascript
+	para ser el primer lenguaje de programacion
+	que se utilizara dentro de un navegador.
+	
+	2- En los 90`s el lenguaje mas popular por
+	mucho era JAVA, originalmente el equipo detras
+	de Netscape penso en utilizar JAVA. La idea fue
+	descartada rapidamente y decidieron crear un
+	nuevo lenguaje.
+	
+	3- Brendan Eich, se dice, creo jvascript en solo
+	10 dias, y aunque la sintaxis era similar a la
+	de JAVA, venia con algunas de las caracteristicas
+	que distingue al lenguaje, funciones de primera
+	clase, tipado dinamico, y herencia de prototipos.
+	
+	4- El nombre orginal era Mocha, luego lo cambiaron
+	por LiveScript, y por ultimo le pusieron Javascript.
+	
+	5- En 1997 Netscape delego la responsabilidad de
+	mantener el lenguaje a la European Computer
+	Manufactures Association (ECMA) para que
+	estandarizara el lenguaje.
+	
+	6- Un dato interesante es que originalmente
+	Sun Microsystems, en 2009 Oracle compro y por
+	lo tanto hoy en dia la marca Javascript le
+	pertenece a Oracle.
+	
+Que es ECMAScript
+
+	1- El estandar ECMA-262 describe el lenguaje
+	ECMAScript, como un lenguaje de proposito general.
+	
+	2- En esta especificacin del lenguaje se describen
+	la sintaxis, y las caractericas del lenguaje, como
+	deben funcionar, y basicamente los detalles del
+	funcionamiento del lenguaje.
+	
+	3- En esta especificacion se define las caracteristicas
+	principales del lenguaje.
+		>_ Lenguaje objetos.
+		>_ Originalmente lenguaje scripting.
+		>_ Se definen objetos base.
+		>_ Se definen operadores base.
+		>_ Soporte de modulos.
+		>_ Sintaxis similar a JAVA.
+	
+	4- Es una descripcion del lenguaje de programacion que
+	requiere de una implementacion, es un documento, son
+	reglas, son textos que describen las caracteristicas y
+	el funcionamiento del lenguaje.
+	
+	5- El grupo TC39 es un grupo conformado por desarrolladores
+	independientes, y de distintas empresas como google, Apple,
+	Firefox que definen y desarrollan las propuestas para
+	anadir a la especificacion.
+	
+	6- El proceso TC39:
+		01 - Strawperson.
+		02 - Proposal.
+		03 - Draft.
+		04 - Candidate.
+		05 - Finished.
+
+El motor de ejecucion:
+
+	1- Podemos decir que el motor de ejecucion es la
+	implementacion de la especificacion, estos son
+	programas que reciben como entrada un archivo escrito usando
+	la sitaxis de Javascript, y cuya salida es la ejecucion de
+	este programa.
+	
+	2- Existen distintos motores de ejecucion, algunos ejemplos
+	son el V8, SpiderMonkey, Chakra, entre otros.
+	
+	3- Estos motores de ejecucion se encargan, entre otras cosas,
+	enel trabajo de optimizacion de tu codigo, un proceso que muchas
+	veces incluye que el codigo sea pasado a lenguaje maquina antes
+	de ejecutarlo.
+	
+El entorno de ejecucion:
+
+	1- ECMAScript es un lenguaje que no esta disenado para ser auto
+	suficiente, mas bien requiere de un entorno.
+	
+	2- Por ejemplo, la especificacion no incluye elementos para
+	entrada o salida de datos, por lo que se espera que el entorno
+	provea de los objetos necesarios para estas aplicaciones.
+	
+	3- En el javascript moderno hay dos principales entorno de
+	ejecucion, el de los navegadores y node.js
+	
+	4- La tarea de estos entornos de ejecucion es la de proveer
+	APIs para complementar el lenguaje y que este pueda ser usado
+	para distintas tareas y propositos en cada entorno.
+	
+	5- En el caso del navegador las web APISs nos permiten acceder
+	al DOM, manipularlo, hacer tareas asincronas, consultar datos,
+	aplicar animaciones, acceder al hardware del equipo y mas.
+	
+	6- En el caso de node.js o alternativas como deno, las APIs
+	nos permiten acceder a la red, a los puertos, a los archivos
+	del sistema, entre otros.
+
+Que es Javascript realmente?
+
+	1- Cuando hablamos de Javascript, estamos usando un nombre
+	comercial que describe al estandar, el motor, y el entorno
+	de ejecucio.
+	
+	2- Decimos que programamos con javascript en el navegador y
+	nos referimos posiblemente a que usamos un lenguaje descrito
+	en el estandar ECMAScript, usando el motor V8, y el navegador
+	como entorno de ejecucion.
+	
+	3- Decimos que programamos con javascript en el servidor y esto
+	quiere decir que problamente usamos el ECMAScript, el v8 y node.js
+	como entorno de ejecucion.
+	
+	4- Para un programador debera ser transparente el usar un motor u otro,
+	quizas la unica diferencia sea cuales de los nuevos estandares estan
+	implementandos en el motor, la sintaxis no deberia cambiar.

@@ -1,0 +1,22 @@
+SOBREESCRITURA DE METODO:
+
+	Cuando defines un metodo en la subclase con el mismo identificador que uno de la clase base, el de la clase base es sobre escrito.
+	
+	En este caso la clase Student sobre-escribe al metodo "greet" de la clase base.
+
+	class Student extends Person {
+		greet() {
+			console.log(`Hi, my name is ${this.name} and Im am a ${this.grade} student.`)
+		}
+	}
+	
+	La palabra reservada "super" nos permite hacer referencia a la clase base desde una clase derivada, de esta manera podemos llamar a los metodos que hayamos reemplazado.
+	
+	class Student extends Person {
+		#grade = 0;
+		
+		constructor(name, age, grade) {
+			super(name, age);
+			this.#grade = grade;
+		}
+	}

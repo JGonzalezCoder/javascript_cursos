@@ -1,0 +1,4 @@
+Accede a javascript a traves del DOM
+
+1. window.document.scripts
+2. document.scripts

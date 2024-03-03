@@ -1,0 +1,39 @@
+Alcance:
+
+	Es una coleccion de variables, funciones y objetos, que estan a tu alcance en algun punto punto de tu codigo.
+
+>_ Alcance global:
+
+	Es todo aquello que no ha sido declarado dentro de un bloque o una funcion.
+	
+	NOTA: Existen muchas razones por las cuales podemos decir que definir variables en el alcance global
+	es una mala practica. Aqui solo mencionare 2:
+
+	>_ Codigo fuertemente acoplado:
+	Cuando dos elementos de codigo dependen uno del otro, decimos que estan acoplados,
+	cuando comparten muchos elementos podemos decir que estan fuertemente acoplado.
+	
+	>_ Cambios inesperados:
+	En grandes proyectos de software la coordinacion enre developers, equipos, y entre muchos anos,
+	 es complicada, por lo que el codigo debe desarrollarse de tal manera que sea modular e independiente.
+	 
+	USOS:
+	>_ Se usan en el cuerpo principal.
+	>_ Se usan en funciones
+
+>_ Alcance local:
+
+	Hace referencia a todos los elementos disponibles solo para una funcion. CAda vez que llamas una nueva funcion, se crea un alcance local para esta funcion.
+
+	USOS:
+	>_ Solo en la funcion declarada.
+
+>_ Alcance de bloque
+
+	Las variables definidas dentro de un bloque de ejecucion, solo estan disponibles para ese bloque, y no paratoda la funcion.
+
+>_ Alcance de modulo
+
+NOTA: En lo que respecta a las funciones, una funcion debe operar solo con la informacion del alcance local, y todo aquello que necesite del exterior debe comunicarse por argumentos, y todo lo que necesita comunicar hacia el exterior debe ser via el retorno.
+
+NOTA: let y const tienen alcance dentro del bloque mas proximo, mientras que var dentro de la funcion mas proxima.

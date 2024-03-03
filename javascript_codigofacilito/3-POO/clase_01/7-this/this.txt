@@ -1,0 +1,44 @@
+THIS
+
+	La palabra reservada "this" en una funcion tiene una pequena diferencia en Javascript comparado con otros lenguajes.
+	
+	Tambien tiene algunas diferencia entre "strict mode" and "non-strict mode".
+
+IMPLICIT BINDING
+
+let human = {
+	name: "Guillermo",
+	say: function() {
+		return this.name;
+	}
+}
+
+human.say();
+
+EXPLICIT BINDING
+
+THE new BINDING
+
+let Human = function(name) {
+	this.name = name;
+	this.log = function() {
+		console.log(this.name);
+	}
+};
+
+let guillermo = new Human("Guillermo");
+let Laura = new Human("Laura");
+
+guillermo.log();
+laura.log();
+
+GLOBAL OBJECT BINDING
+
+let sayName = function(name) {
+	console.log(this.name);
+};
+
+window.name = "kira";
+sayName();
+
+NOTA: las funcioensflechas no contiene el contexto.

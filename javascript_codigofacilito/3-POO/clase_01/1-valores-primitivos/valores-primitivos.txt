@@ -1,0 +1,17 @@
+Valores primitivos:
+
+	>_ boolean
+	>_ number
+	>_ string
+	>_ symbol
+	>_ BigInt
+	>_ Undefined
+	>_ null
+	
+	>_ typeof true		-> boolean
+	>_ typeof 3.14		-> number
+	>_ typeof "hello"	-> string
+	>_ typeof Symbol()	-> symbol
+	>_ typeof 10n		-> bigint
+	>_ typeof undefined	-> undefined
+	>_ typeof null		-> Object

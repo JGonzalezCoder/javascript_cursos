@@ -1,0 +1,13 @@
+Contexto:
+
+	cunado creamos un objeto con "new":
+
+		1. Un nuevo objeto se crea con los metodos y proiedades listados en la clase.
+	
+		2. Se invoca el constructor.
+	
+		3. Se hace binding de this dentro de la clase, al nuevo objeto creado.
+
+	Podemos usar "this" en el cuerpo de la clase para hacer refrencia al objeto creado para una clase.
+	
+	

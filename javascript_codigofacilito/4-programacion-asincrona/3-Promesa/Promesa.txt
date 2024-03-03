@@ -1,0 +1,39 @@
+PROMESAS:
+
+	Es un objeto que representa la resolucion o el fracaso de una operacion asincrona.
+	
+	Pueden tener diferentes estados:
+	
+		>_ Pendiente.
+	
+		>_ Aceptada.
+	
+		>_ Rechazada.
+		
+	Con las promesas usamos funciones "Callbacks".
+	
+	Para saber que callback usar, se usan los isguientes metodos:
+	
+		>_ .then(resolve): Ejecuta el callback "resolve" cuando se cumple la tarea.
+		
+		>_ .catch(reject): Ejecuta el callback "reject" cuando se rechaza la tarea
+		
+		>_ .finally(end): Ejecuta el callback "end", cuando se cumple o rechaza la tarea.
+		
+	EJEMPLO:
+	
+	const promesa = new Promise((resolve, reject) => {
+		setTimeout(() => resolve("Lista"), 2000);
+		setTimeout(() =>reject(new Error("Error")), 1000);
+	});
+	
+CONSUMIR UNA PROMESA:
+
+	Podemos usar los emtodos .then y .catch
+	
+	promesa.then(
+		function(result) {// Manejar un resultado exitoso},
+		function(error) {// Manejar un error}
+	);
+	
+	promesa.catch(alert); // muestra "Error" despues de 1 segundo.

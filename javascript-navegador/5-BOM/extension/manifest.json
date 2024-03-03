@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "js-dom",
+  "version": "0.0.18",
+  "description": "Una extensi[on de EDteam para modificr el DOM de cualquier sitio",
+    "action": {
+    "default_title": "Haz click aqui",
+    "default_popup": "popup.html"
+  },
+   "content_scripts": [
+   {
+     "matches": ["https://*.ed.team/*"],
+     "css": ["ed.css"],
+     "js": ["ed.js"]
+   },
+   {
+     "matches": ["https://*.ed.team/*"],
+     "css": ["ed.css"],
+     "js": ["modal.js"]
+   }
+ ],
+ "permissions": ["activeTab","scripting"]
+}

@@ -1,0 +1,16 @@
+Numeros:
+
+	Es un valor que puede usarse en una operacion matematica, en Javascript, estos valores son del tipo Number.
+
+NOTA:
+	>_ Esta el primitivo "number"
+	>_ Esta el objecto "Number"
+
+Operadores aritmeticos:
+	>_ +: suma.
+	>_ -: resta.
+	>_ *: multiplicacion.
+	>_ /: division.
+	>_ %: residuo.
+
+NOTA: existe la libreria Math, la cual tiene varias funciones matematicas.

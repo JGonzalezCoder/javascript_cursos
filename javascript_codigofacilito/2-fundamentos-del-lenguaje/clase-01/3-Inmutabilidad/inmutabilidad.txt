@@ -1,0 +1,21 @@
+Inmutabilidad:
+
+	Es el concepto con que nos referimos a un objeto que no puede modificar su valor.
+	En Javascript los tipos primitivos son estructuras inmutables, algunos ejemplos
+	son los numeros, booleanos o las cadenas.
+	
+	Las estructura mas compleja como los objetos o los arreglos, no son inmutable
+	(mutables).
+	
+	Recordemos que las variables y las constantes son etiquetas que apuntan a un valor,
+	en el caso de las constantes esta direccion de referencia no puede ser modificada.
+	
+	Dicho esto, el valor al que apunta la contante puede ser modificado, por lo que no
+	debemos asumir que el valor de una constante siempre sera el mismo, solo podemos
+	asumir que apuntara al mismo valor.
+	
+	En resumen esto quiere decir que en JAvascript las constantes deben servir como
+	una referencia semantica, no como una ceteza de que el valor al que apuntamos
+	no cambiara.
+	
+	

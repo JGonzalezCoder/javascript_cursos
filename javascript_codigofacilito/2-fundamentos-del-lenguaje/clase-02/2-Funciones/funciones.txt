@@ -1,0 +1,58 @@
+Funcion:
+
+	Es un conjunto de instrucciones que se ejecutan juntas cuando llamamos a la funcion.
+
+	Por lo general las funciones reciben una serie de argumentos como entrada de datos y retornan un resultado como salida.
+	
+	Nos permite encapsular partes de la funcionalidad de nuestro programa independientemente, con el proposito de dividir un problema en subproblema.
+
+	Las funciones en javascript son importante, anto que su flexibilidad y potencial convierten a javascript en un lenguaje multiparadigma donde bien puedes organizar tu codigo en objetos, o en funciones.
+	
+Sintaxis:
+
+function <nombre-funcion>(<parametros>) {
+	//Codigo...	
+	return; //opcional
+}
+
+Ejemplo:
+
+function saludar() {
+	console.log("hola dev");
+}
+
+saludar();
+
+	Para recibir informacion en una funcion podemos enlistar parametros dentro de los parentesis despues del nombre de la funcion.
+
+	Pueden retornar un resultado usando la palabra return.
+	
+	El valor de retornado por la funcion determinara el resultado de la expresion donde llamemos a la funcion.
+	
+DECLARACION DE FUNCIONES:
+
+	cunado iniciamos con la palabra reservada function una linea de codigo se trata de una declaracion de funcion.
+
+	function saludar(){}
+	
+EXPRESION DE FUNCIONES:
+
+	cunado no iniciamos con la palabra reservada function una linea de codigo se trata de una expresion de funcion.
+	
+	let saludar = function(){}
+
+FUNCIONES FLECHAS:
+
+	Existe una sintaxis alternativa, cuando usamos expresion de funciones, las funcines de flecha o arrow functions.
+
+	let func = () => {}
+
+>_ Un funcion peude ser "creada" con una declaracion de funcion o una expresion de funcion.
+
+>_ Las declaraciones de funcion se mueven al principio del alcance, por lo que pueden ser usadas antes de aparecer en el codigo, a esto se le llama hoistin.
+
+>_ Las expresiones de funcion pueden o no tener nombre.
+
+>_ Las expresiones de funcion sin nombre se conocen como funciones anonimas.
+
+>_ LAs expresiones de funcion pueden usar la sintaxis de flechas

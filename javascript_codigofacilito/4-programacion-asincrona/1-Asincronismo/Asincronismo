@@ -1,0 +1,33 @@
+TERMINOLOGIA:
+
+	>_ Bloqueante:
+	
+		Operaciones que bloquean la aplicacion. Hasta que no se completa no devuelve el control.
+	
+	>_ No Boqueante:
+	
+		Operaciones ue devuelve el control de inmediato.
+	
+	>_ Paralelismo:
+	
+		Una operacion es ejecutada al mismo tiempo de otra.
+	
+	>_ Congruencia:
+	
+		Cuando una operacion puede ser simultanea a otra.
+		
+	>_ Mono-thread:
+	
+		Un unico hilo de ejecucion.
+	
+	>_ Multi-thread:
+	
+		Varios hilos de ejecucion.
+	
+	>_ Sincrono:
+	
+		Se ejecuta n secuencia. Una sentencia se ejecuta luego de que sea ejecutada su antecesora.
+	
+	>_ Asincrono:
+	
+		Una operacion se puede ejecutar, estando otra en proceso.

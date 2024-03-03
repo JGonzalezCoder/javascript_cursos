@@ -1,0 +1,40 @@
+Booleanos:
+
+	Asi como existen las cadenas y los numeros, tambien existen los tipos booleanos, cuando un dato es del tipo booleano, significa que su valor unicamente peude ser verdadero o falso.
+
+	Decimos que una expresion es booleana cuando su ersultado es verdadero o falso, y se componen de operadores d comparacion, operadores logicos, y otros tipos booleanos.
+
+Operadores de comparacion:
+
+	>_ === : Igual a
+	>_ !== : Diferente de
+	>_ > : Mayor que
+	>_ < : Menor que
+	>_ >= : Mayor o igual que
+	>_ <= : Menor o igual que
+
+Operadores logicos:
+
+	>_ && : Devuelve verdadero si ambas expresiones son verdaderas, en caso contrario, falso.
+	>_ || : Devuelve verdadero si al menos una de las expresiones es verdadera, en caso contrario, falso.
+	>_ ! : Negacion, invertimos la expresion booleana.
+	>_ ?? : Evalua el valor o la expresion de la izquierda, si es nula o undefined, retorna el valor de la
+	derecha.
+
+Truthy:
+
+	Son cuando su representacion booleana sea verdadero.
+
+Falsy:
+
+	Es cuando su representacion booleana es falso.
+	
+	>_ NaN
+	>_ null
+	>_ 0 y -0
+	>_ ""
+	>_ false
+
+	Cuando usamos un dato que no es booleano, donde se espera uno, Javascript utilizara type coercion para convertirlo a su valor truthy o falsy.
+
+

@@ -1,0 +1,54 @@
+FUNCIONES COMO OBJETO DE PRMERA CLASE:
+
+	En programacion decimos que cuando un tipo de dato puede ser asignado a una variable, retornado o enviado como argumento se trata de un first class citizen o en espanol un ciudadano de primera clase.
+
+Caracteristicas de los First Class Objects:
+
+	>_ Debe ser posible retornarlo.
+	
+	>_ Debe ser posible signarlo a una variable.
+	
+	>_ Debe ser posible enviarlo como argumento.
+
+	Los numeros, las cadenas, los booleanos, los arreglos, las funciones y los objetos de Javascript son considerados objetos de primera clase.
+
+	En javascript, de hecho es comun enviar funciones como argumento de otras.
+	
+function executor(funcion) {
+	funcion();
+}
+
+function decir_hola() {
+	console.log("Hola");
+}
+
+executor(decir_hola);
+
+EJEMPLO:
+
+	setTimeout(function(){}, 1000);
+
+	button.addEventListener("click", function(){});
+	
+USAMOS FUNCIONES COMO ARGUMENTOS CUANDO QUEREMOS:
+
+	>_ Retasar esta ejecucion.
+
+	>_ Preparar el entorno para ejecutar la funcion.
+
+	>_ Ejecutar la funcion asincronamente.
+
+	Asi msmo, una funcion puede retornar otra:
+	
+function build() {
+	function a(){}
+	return a;
+}
+
+	Este patron suele ser util cuando una funcion sirve para preconfigurar otra, y el resultado es una funcion preconfigurada que puedes ejecutar cuando la necesitas.
+
+	Usualmente cuando trabajmos con funciones como objetos de primera clase, utilizamos expresiones de funcion y no declaracion de funcion.
+
+	Y de la mano funciones anonimas.
+
+

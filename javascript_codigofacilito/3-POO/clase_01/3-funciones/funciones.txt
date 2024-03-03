@@ -1,0 +1,17 @@
+FUNCIONES:
+
+	typeof () => {} -> function
+
+	const f1 = function () {};
+	typeof f1;					-> function
+	typeof f1.prototype;		-> object
+	
+	const f2 = () => {};
+	typeof f2;					-> function
+	typeof f2.prototype;		-> undefined
+	
+	(function() {}).constructor === Functio;	-> true
+	(() => {}).constructor === Function;		-> true
+	typeof Function								-> function
+	typeof Function()							-> function
+	typeof new Function()						-> object

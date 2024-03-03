@@ -1,0 +1,15 @@
+HERENCIA CLASICA:
+
+	Una calse es algo abstracto que en realidad no "existe".
+	
+	Piensa en unos planos: tu tienes las instrucciones para construir una casa pero no es la casa.
+	
+	La casa sera una instancia de objeto y los planos seran la clase.
+	
+	En POO nosotros tenemos dos tipos de abstracion: clases y bojetos.
+	
+class Blueprints {}	
+class House extends Blueprints {}	
+House myHouse = new House();
+
+

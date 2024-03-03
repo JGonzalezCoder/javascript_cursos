@@ -1,0 +1,17 @@
+ASYNC AWAIT:
+
+	Son una mejora a las promesa y son Sugar Syntactic ("Azucar sintactco").
+	
+	"Async" convierte una funcion asincrona, y devuelve una promesa.
+	
+	async function funcion_asincrona() {
+		return "Hola mundo";
+	}
+	
+	"await" espera que se resuelva la promesa.
+	
+	const funcion_asincrona = async () => "Hola mundo";
+	
+	const value = function_asincrona();
+	
+	const asyncValue = await funcion_asincrona();
