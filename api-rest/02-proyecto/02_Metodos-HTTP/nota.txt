@@ -1,0 +1,25 @@
+METODO HTTP:
+
+	Permiten al frontend comunicar al backend el tipo de accion o solicitud que se quiere realizar.
+
+METODO GET:
+
+	Se usa para obtener datos del servidor.
+
+METODO POST:
+
+	Se usa para crear nuevos recursos en el servidor.
+
+METODO PUT:
+
+	- Se usa para modificar recursos existentes.
+	- Actualizar completamente un recurso.
+
+METODO PATCH:
+
+	- Se usa para modificar recursos existentes.
+	- Actualizar parcialmente un recurso.
+
+METODO DELETE:
+
+	Se utiliza para eliminar recursos del servidor.

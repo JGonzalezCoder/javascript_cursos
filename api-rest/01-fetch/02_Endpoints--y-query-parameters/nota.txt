@@ -1,0 +1,13 @@
+ENDPOINTS:
+
+	- api.com/breeds
+	- api.com/categories
+	- api.com/images
+	- api.com/images/michi34
+
+QUERY PARAMETERS:
+
+	- /breeds?limit=5&page=2
+	- /categories?search=fun
+	- /images?category=3
+	- /imgaes/michi34?format=png

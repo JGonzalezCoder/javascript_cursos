@@ -1,0 +1,26 @@
+MODE:
+
+	- cors.
+	- no-cors.
+	- same-origin.
+
+CACHE:
+
+	- default.
+	- no-store.
+	- reload.
+	- no-cache.
+	- force-cache.
+	- only-if-cached.
+
+REDIRECT:
+
+	- follow.
+	- error.
+	- manual.
+
+FETCH POR DETRO:
+
+	- new Request().
+	- new Headers().
+	- new Response().

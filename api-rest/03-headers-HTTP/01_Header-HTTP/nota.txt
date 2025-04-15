@@ -1,0 +1,11 @@
+Header HTTP:
+
+	Indica la informacion que enviamos o recibimos del backend
+	
+TIPOS:
+
+	- Content Type.
+	- Authorization.
+	- Cookies.
+	- Location.
+	- Etc.

@@ -1,0 +1,20 @@
+AUTENTICACION
+
+	Indica quien es quien.
+
+AUTORIZACION:
+
+	Indica que permiso tiene cada quien.
+
+API KEY:
+
+	- Query parameter: ?api_key=ABC123
+	
+	- Authorization Header: X-API-Key: ABC123
+
+ALTERNATIVAS:
+
+	- Authorization: Basic
+	- Authorization: Bearer Token
+	- OAuth 2.0
+	- Access Key + Secret Key

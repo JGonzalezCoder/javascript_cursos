@@ -1,0 +1,18 @@
+seandBeacon:
+
+	- No espera una repuesta del servidor.
+	- Es buena idea para analytics.
+
+GraphQL:
+
+	- Empowered clients.
+	- All requests on the same endpoint.
+
+Web Sockets:
+
+	- Dejar el "tunel abierto".
+	- Util para aplicaciones real-time.
+
+Web 3.0:
+
+	- Dapps: aplicaciones descentralizadas.

@@ -1,0 +1,39 @@
+HTTP STATUS CODES
+
+	Actuan como indicadores que nos proporcionan informacion sobre el estado de nuestra solicitud al servidor.
+
+CODIGOS 200
+
+	Indica que todo esta funcionando correctamente entre el frontend y el backend.
+	
+	- 200 (OK): La solitud se ha completado con exito.
+	
+	- 201 (Created): Se ha creado un recurso nuevo correctamente.
+	
+	- 202 (Accepted): La solicitud ha sido aceptada para procesamiento, pero aun no se ha completado.
+
+CODIGOS 300
+
+	Indica que la solicitud actual no es la definitiva y que el backend sugiere una ruta diferente.
+	
+	- 307 (Temporary Redirect): La ruta de redireccion es temporal. Puede cambiar en el futuro.
+	
+	- 308 (Permanent Redirect): La redireccion es permanente. La URL a la que intentas acceder se ha movido permanentemente a otra direccion.
+
+CODIGO 400
+
+	Indican errores causados por el frontend o por la solicitud enviada al servidor.
+	
+	- 400 (Bad Request):  Hay un error en la solicitud.
+	
+	- 401 (Unauthorized): Se requiere autenticacion para acceder a la ruta.
+	
+	- 402 (Payment Required): Es necesario realizar un pago para poder acceder a un recurso.
+	
+	- 404 (Not Found): La ruta o recurso solicitado no existe.
+
+CODIGO 500
+
+	Indica errores del servidor, donde el backend ha tenido un fallo interno.
+	
+	- 500 (Internal Server Error): Error generico del backend, sin especificaciones.

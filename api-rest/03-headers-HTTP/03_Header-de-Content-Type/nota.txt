@@ -1,0 +1,60 @@
+CONTENT TYPES:
+
+	- application.
+	- audio.
+	- image.
+	- multipart.
+	- text.
+	- video.
+	- vnd.
+	- Etc.
+
+APPLICATION:
+
+	- application/json.
+	- application/xml.
+	- application/zip.
+	- application/x-www-form-urlencoded
+
+AUDIO:
+
+	- audio/mpeg.
+	- audio/x-ms-wma.
+	- audio/vn.rn-realaudio.
+	- audio/x-wav.
+
+IMAGE:
+
+	- image/gif.
+	- image/jpeg.
+	- image/png.
+	- image/x-icon.
+	- image/svg+xml.
+
+MULTIPART:
+
+	- multipart/miexd.
+	- multipart/alternative.
+	- multipart/related.
+	- multipart/form-data.
+
+TEXT:
+
+	- text/css.
+	- text/csv.
+	- text/html.
+	- text/plain.
+	- text/xml.
+
+VIDEO:
+
+	- video/mpeg.
+	- video/mp4.
+	- video/quicktime.
+	- video/webm.
+
+VND:
+
+	- application/vnd.ms-excel.
+	- application/vnd.ms-powerpoint.
+	- application/msword.

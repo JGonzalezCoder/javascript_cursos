@@ -1,0 +1,94 @@
+:root {
+	--color: oklch(95% 0% 225deg);
+	--color-button: oklch(95% 0% 225deg);
+	--bg-button: oklch(50% 100% 225deg);
+	--bg: oklch(5% 0% 225deg);
+	--bg-header: linear-gradient(blue, black);
+	--border-color: oklch(50% 100% 225deg);
+}
+
+/* Layout */
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+}
+
+.header {
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.title {
+	text-align: center;
+}
+
+.main {
+	padding: 0 1rem;
+}
+
+.subtitle {
+	margin: 1rem 0;
+}
+
+.galleryMichis{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+	grid-auto-rows: 150px;
+	gap: 1rem;
+}
+
+.container--figure {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+[class^='img'] {
+	flex: 1;
+	width: 100%;
+	height: 0;
+	border: 1px solid var(--border-color);
+	border-radius: 0.5rem;
+}
+
+[class^='button'] {
+	padding: 0.25rem;
+	border: 1px solid var(--border-color);
+	border-radius: 0.25rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.file {
+	margin-right: 1rem;
+}
+
+/* Theme */
+.container {
+	font-family: sans-serif;
+	color: var(--color);
+	background: var(--bg);
+}
+
+.header {
+	background: var(--bg-header);
+}
+
+[class^='img'] {
+	object-fit: cover;
+}
+
+[class^='button'] {
+	color: var(--color-button);
+	background: var(--bg-button);
+}
+
+[class^='button']:hover {
+	cursor: pointer;
+}
